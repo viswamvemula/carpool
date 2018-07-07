@@ -2856,13 +2856,13 @@ h6 {
 .carpool{
   position: absolute;
     right: 15%;
-    width: 25vw;
+    width: 33vw;
     background: #fff;
     
     /* vertical-align: middle; */
     margin: auto;
     /* top: 30%; */
-    height: 25vw;
+    height: 33vw;
     top: 0;
     bottom: 0;
     text-align: center;
@@ -2874,6 +2874,15 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin-top: -10px;
+}
+#logo-b{
+  width: 186px;
+}
+@media (min-width: 1600px) {
+  .carpool{
+    width: 25vw;
+    height: 25vw;
+  }
 }
 @media (max-width: 767px) {
   .carpool{
